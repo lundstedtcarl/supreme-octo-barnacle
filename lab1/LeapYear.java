@@ -4,7 +4,7 @@
 public class LeapYear {
 	/** Checks if year is leap year
 	 *	Leap year is either divisible 
-	 * by 400 or divisible by 4 and not by 100
+	 *	by 400 or divisible by 4 and not by 100 
 	 */
 	public static boolean isLeapYear(int year) {
 		return (year%400==0 || (year%4==0 && year%100!=0));
